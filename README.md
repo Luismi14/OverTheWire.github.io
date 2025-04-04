@@ -1,3 +1,11 @@
-OverTheWire es una plataforma de juegos interactivos diseñada para enseñar seguridad informática y administración de sistemas. A través de desafíos progresivos, los usuarios aprenden desde comandos básicos de Linux hasta técnicas avanzadas de hacking y análisis forense. Ideal para principiantes y expertos, cada juego (wargame) ofrece un enfoque práctico para desarrollar habilidades en un entorno realista.
+# 🚀 **OverTheWire: Aprende Seguridad Informática Jugando**
 
-¡Empieza a resolver problemas y mejora tus conocimientos de seguridad cibernética de manera divertida!
+**OverTheWire** es una plataforma interactiva que te enseña **seguridad informática** y **administración de sistemas** a través de una serie de **wargames**. Desde comandos básicos de Linux hasta técnicas avanzadas de hacking y análisis forense, cada desafío está diseñado para ayudarte a mejorar tus habilidades en un entorno práctico y realista.
+
+🎮 **Ideal para todos los niveles**, desde principiantes hasta expertos.  
+🔐 **Aprende jugando**: resuelve problemas, adquiere conocimientos y mejora tus habilidades de manera divertida.
+
+¡Empezar es fácil! Elige tu primer wargame y comienza a aprender hoy mismo.
+
+---
+

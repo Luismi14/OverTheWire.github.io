@@ -1,1 +1,236 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OverTheWire - Wargames</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2a2a2a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #111;
+            color: #ff6f00;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 2.5em;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-family: 'Courier New', monospace;
+            letter-spacing: 2px;
+        }
+
+        section {
+            padding: 20px;
+            background: #1a1a1a;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2, h3 {
+            font-family: 'Courier New', monospace;
+            color: #ff6f00;
+        }
+
+        p, pre {
+            font-size: 1.1em;
+        }
+
+        pre {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 5px;
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            overflow-wrap: break-word;
+        }
+
+        .level {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .level h3 {
+            color: #ff9800;
+            font-size: 1.5em;
+        }
+
+        .level p {
+            color: #f0f0f0;
+            margin: 10px 0;
+        }
+
+        .command {
+            color: #4caf50;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #111;
+            color: #ff6f00;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .game-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .level-icon {
+            width: 25px;
+            height: 25px;
+            margin-left: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section, footer {
+                padding: 15px;
+            }
+
+            .level {
+                padding: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><img src="https://img.icons8.com/ios/452/console.png" class="game-icon" alt="Game Icon"> OverTheWire - Aprende Jugando</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>¿Qué es OverTheWire?</h2>
+        <p>OverTheWire es una plataforma educativa en línea que ofrece una serie de <strong>wargames</strong> para mejorar tus habilidades en seguridad informática. Cada juego te reta a resolver puzzles y completar misiones utilizando herramientas de administración de sistemas y hacking ético.</p>
+        <p>A medida que progresas, irás aprendiendo desde los fundamentos de Linux hasta técnicas más avanzadas, todo mientras juegas y te enfrentas a desafíos en cada nivel. ¡Es como un videojuego de hacking en la vida real!</p>
+    </section>
+
+    <section>
+        <h2>Comandos y Contraseñas por Nivel</h2>
+
+        <!-- Nivel Bandit -->
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 0</h3>
+            <p><strong>Contraseña:</strong> <span class="command">bandit0</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>ssh bandit0@bandit.labs.overthewire.org -p 2220</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 1</h3>
+            <p><strong>Contraseña:</strong> <span class="command">boJ9jbbUNNfktd78OOpsqOltutMu2LZ</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat readme</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 2</h3>
+            <p><strong>Contraseña:</strong> <span class="command">CV1DtqXbWpC7nM3xDpY7XJmHLHbZcT4V</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>ls -la</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 3</h3>
+            <p><strong>Contraseña:</strong> <span class="command">UmE1p1Iqr6Z3h3qoiyiyE9k9yDkmeUw7</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat .hidden</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 4</h3>
+            <p><strong>Contraseña:</strong> <span class="command">pIwrPrtPN36Q6pDNX7p2o2r6on9aSxF7</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat readme</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 5</h3>
+            <p><strong>Contraseña:</strong> <span class="command">KoRebRr4K8jZmC7a1TYPv1S5ANsSxdHp</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat ./space</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 6</h3>
+            <p><strong>Contraseña:</strong> <span class="command">Pp9z4g9cvH9XbVt8d3d9Vo95kgFmA3T7</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat data.txt</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 7</h3>
+            <p><strong>Contraseña:</strong> <span class="command">MZkxdOQJ8sLzFw0G8b46vlkT5lxa0u8V</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/overthere</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 8</h3>
+            <p><strong>Contraseña:</strong> <span class="command">L9f02ZZgLkhL92dtDbFxJzRv8p42uVsq</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat .hiddenpass</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 9</h3>
+            <p><strong>Contraseña:</strong> <span class="command">B5fi2Mzk3pLp5fq2gUqYH5y4VdXBZVtV</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat ssh_key.txt</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 10</h3>
+            <p><strong>Contraseña:</strong> <span class="command">OUcJxzGk1RQwqZHv5xFosbHUtQgGzqpe</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/.hiddenfile</pre>
+        </div>
+
+       
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 30</h3>
+            <p><strong>Contraseña:</strong> <span class="command">t7mZm9Tk79qAX8V3j7Pm</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat final_password</pre>
+        </div>
+
+    </section>
+</div>
+
+<footer>
+    <p>OverTheWire | Wargames educativos para mejorar tus habilidades en seguridad informática. <a href="https://overthewire.org" target="_blank" style="color: #ff6f00;">Visítanos</a></p>
+</footer>
+
+</body>
+</html>

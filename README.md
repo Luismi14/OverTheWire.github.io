@@ -1,11 +1,15 @@
-# 🚀 **OverTheWire: Aprende Seguridad Informática Jugando**
+# 🎮 OverTheWire Wargames
 
-**OverTheWire** es una plataforma interactiva que te enseña **seguridad informática** y **administración de sistemas** a través de una serie de **wargames**. Desde comandos básicos de Linux hasta técnicas avanzadas de hacking y análisis forense, cada desafío está diseñado para ayudarte a mejorar tus habilidades en un entorno práctico y realista.
+¡Bienvenido a **OverTheWire**! 🚀
 
-🎮 **Ideal para todos los niveles**, desde principiantes hasta expertos.  
-🔐 **Aprende jugando**: resuelve problemas, adquiere conocimientos y mejora tus habilidades de manera divertida.
-
-¡Empezar es fácil! Elige tu primer wargame y comienza a aprender hoy mismo.
+**OverTheWire** es una plataforma educativa que te permite aprender sobre **seguridad informática** y **hacking ético** a través de divertidos **wargames**. Cada nivel te desafiará con puzzles y misiones utilizando herramientas de administración de sistemas, ¡todo mientras juegas! 💻🔐
 
 ---
 
+## 🔗 Comienza tu aventura
+
+Accede a los wargames y comienza a mejorar tus habilidades en seguridad informática:
+
+[🌐 **Visita OverTheWire Wargames**](https://luismi14.github.io/OverTheWire.github.io/)
+
+¡Buena suerte, hacker! 💥
